@@ -1,0 +1,84 @@
+.card_container{
+    position: absolute;
+    left: 35%;
+    top: 30%;
+    width: 400px;
+    height: 400px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 6px 0px;
+    background-image: linear-gradient(to top, #c471f5 0%, #fa71cd 100%);
+    z-index: 1;
+    transform: scale(1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.card_container:hover{
+    transform: scale(1.1);
+}
+
+.main_heading{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: green;
+}
+
+.sub_heading{
+    display: flex;
+    justify-content: center;
+    margin-top: -15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.weather_icon{
+    display: flex;
+    position: absolute;
+    left: 25%;
+    top: 33%;
+    z-index: -1;
+}
+
+.temprature{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.wind_main_container{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    top: 5%;
+}
+
+.wind{
+    display: flex;
+    flex-direction: column;
+    padding-left: 17px;
+    padding-right:18px;
+}
+
+.sun_rise{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    top: 15%;
+}
+
+.sun_rise_item{
+    display: flex;
+    flex-direction: column;
+    padding: 18px;
+}
+
+
+label{
+    font-weight: bold;
+}
+
+p{
+    text-align: center;
+    margin-top: 5px;
+    font-weight: 600;
+}
