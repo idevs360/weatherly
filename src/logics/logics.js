@@ -1,5 +1,5 @@
 export default async function getCityWiseWeather(city) {
-    const apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=e5ff8e6ad566cec90c68c5a543de893f`;
+    const apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid={apiKey}`;
   try {
     const response = await fetch(apiUrl);
 
